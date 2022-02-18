@@ -1,13 +1,12 @@
-# CURSO DE FORMAÇÃO > NODEJS [ UDEMY ]
+# curso de formação > nodejs [ udemy ]
 ####################################################
-# SECTION 1
-# HTTP :  PROTOCOLO DE TRANSFERENCIA DE DADOS NA WEB
-# RESQUEST => RESPONSE 
-# RES - RESPOSTA QUE VAI SER ENVIADA PELO USUÁRIO
-# REQ - SÃO OS DADOS ENVIADOS PELO USUÁRIO
-# fs - Manipulação de Arquivos 
-# EXPRESS FRAMEWORK - SUPER BIBLIOTECA QUE AUXILIA NA CONSTRUÇÃO DE APPS WEB.
-# CANNOT GET/ - ROUTE NOT FOUND
-
-# PARA DEFINIR ROTAS COM PARAMÊTROS INSIRA /:nameparam
-# PARA DEFINIR ROTAS COM PARAMÊTROS NÃO OBRRIGATÓRIOS INSIRA /:nameparam?
+# section 1
+# http :  protocolo de transferencia de dados na web
+# resquest => response 
+# res - resposta que vai ser enviada pelo usuário
+# req - são os dados enviados pelo usuário
+# fs - manipulação de arquivos 
+# express framework - super biblioteca que auxilia na construção de apps web.
+# cannot get/ - route not found
+# para definir rotas com paramêtros insira /:nameparam
+# para definir rotas com paramêtros não obrrigatórios insira /:nameparam?
