@@ -1,0 +1,15 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Curso Udemy- Formação NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Apollo Alves",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
