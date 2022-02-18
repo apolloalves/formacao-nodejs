@@ -23,10 +23,60 @@ app.get('/ola/:name', ( req, res ) => {
     res.send( req.params.name )
 })
 
-app.get('/hello/:name', ( req, res) => {
+app.get('/hello/:name', ( req, res ) => {
     const name = req.params.name
     res.send(`HI ${name}`)
 })
+
+// Route two param
+app.get('/person/:name/:company', (req, res) => {
+    
+    const name = req.params.name
+    const company = req.params.company
+    
+    res.send( `Hello ${name} of ${company}` )
+    
+})
+
+// route with two params in obj
+app.get( '/username/:name/:age', ( req, res ) => {
+
+    const user = { name: req.params.name,age: req.params.age }
+    res.send(`Hello ${user.name} of ${user.age}`)
+
+
+} )
+
+
+// Route Params Not Required
+app.get('/subscribe/:id?', (req, res) => {
+
+    res.send(`Welcome to my cannel` )
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // app.listen(4000, (err ) =>   {
