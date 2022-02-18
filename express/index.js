@@ -49,43 +49,18 @@ app.get( '/username/:name/:age', ( req, res ) => {
 
 
 // Route Params Not Required
-app.get('/subscribe/:id?', (req, res) => {
+app.get('/subscribe/:articles?', ( req, res ) => {
+    
+    const channel = req.params.articles
+    channel 
+        ? res.send( `Article: ${channel}` ) 
+        : res.send( `Welcome to my channel on youtube` )
 
-    res.send(`Welcome to my cannel` )
 })
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// app.listen(4000, (err ) =>   {
-//     if(err) { 
-//     console.log( err ) 
-
-//     }else {
-//         console.log( 'Server running success' )
-//     } 
-// })
 
 app.listen( 4000,() => console.log('Server running'))
