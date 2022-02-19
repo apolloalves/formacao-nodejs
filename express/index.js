@@ -18,8 +18,8 @@ app.get( '/canal/youtube', ( req, res ) => {
 
 // Route param
 app.get('/ola/:name', ( req, res ) => {
-    // res => dados enviados pelo usuário
     // req => resposta que vai ser enviada para o usuário
+    // res => dados enviados pelo usuário
     res.send( req.params.name )
 })
 
@@ -44,9 +44,7 @@ app.get( '/username/:name/:age', ( req, res ) => {
     const user = { name: req.params.name,age: req.params.age }
     res.send(`Hello ${user.name} of ${user.age}`)
 
-
 } )
-
 
 // Route Params Not Required
 app.get('/subscribe/:articles?', ( req, res ) => {
@@ -57,10 +55,5 @@ app.get('/subscribe/:articles?', ( req, res ) => {
         : res.send( `Welcome to my channel on youtube` )
 
 })
-
-
-
-
-
 
 app.listen( 4000,() => console.log('Server running'))
